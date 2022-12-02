@@ -7,5 +7,3 @@ const charts = [{ name: "chart-1", value: 1, label: "Chart" }];
     {{ item.name }}
   </div>
 </template>
-
-

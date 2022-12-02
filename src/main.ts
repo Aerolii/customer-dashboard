@@ -4,7 +4,7 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
-import setupQuasar from "./utils/setupQuasar";
+import setupQuasar from "./utils/setupQuasar.utils";
 
 const app = createApp(App);
 

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import ChartItemComponent from "@/components/chart/ChartItemComponent.vue";
 import SelectWidget from "@/components/select/SelectWidget.vue";
 import TabsComponent from "@/components/tabs/TabsComponent.vue";
@@ -51,4 +51,10 @@ const handleChangeSelect = (
 .chart-item {
   cursor: pointer;
 }
-</style>
+</style> -->
+
+<script setup lang="ts"></script>
+
+<template>
+  <div>hello world</div>
+</template>

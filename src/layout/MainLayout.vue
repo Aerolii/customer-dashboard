@@ -1,19 +1,17 @@
-<script setup lang="ts">
-import { RouterView } from "vue-router";
+<script lang="ts" setup>
+import MainHeaderComponent from "./MainHeaderComponent.vue";
+import MainDrawerLayout from "./MainDrawerLayout.vue";
+import { APP_INFO_CONFIG } from "@/config/app.config";
 </script>
 
 <template>
   <q-layout view="hHh lpR fFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-toolbar-title>New Dashboards</q-toolbar-title>
-        <q-btn flat round dense label="save" class="q-mr-sm" />
-        <q-btn flat round dense label="cancel" />
-      </q-toolbar>
-    </q-header>
-
+    <MainHeaderComponent title="hello" />
+    <MainDrawerLayout />
     <q-page-container>
-      <router-view />
+      <q-page class="q-pa-md">
+        <router-view />
+      </q-page>
     </q-page-container>
   </q-layout>
 </template>
